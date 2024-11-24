@@ -162,6 +162,6 @@ def structure_log(input_dir, output_dir, log_name, log_format,  start_line = 0, 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    df_log.to_csv(os.path.join(output_dir, log_name + '_structured.csv'), index=False)
+    df_log.to_csv(os.path.join(output_dir, log_name + '_structured.csv'), index=False, escapechar='\\')
 
     print('Structuring done. [Time taken: {!s}]'.format(datetime.now() - start_time))
