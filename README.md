@@ -127,5 +127,5 @@ typeface.
    dataset_name = # i.e., 'BGL'
    data_path =  # i.e., r'/mnt/public/gw/SyslogData/{dataset_name}/test.csv'.format(dataset_name)
    ```
-- We have provided the test file for the BGL dataset, which can be accessed at [here](https://drive.google.com/file/d/1aMKzhrLklnk5RX78UBc3Zx3voIIGnQzo/view?usp=sharing):
+- We have provided the test file for the BGL dataset, which can be accessed at [here](https://drive.google.com/file/d/1aMKzhrLklnk5RX78UBc3Zx3voIIGnQzo/view?usp=sharing).
 - Run ```python eval.py``` from the root directory. 
