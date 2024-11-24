@@ -19,7 +19,7 @@ end_line = None
 # end_line = 45000000
 
 # # thunderbird
-# start_line=160000000
+# start_line = 160000000
 # end_line = 170000000
 
 output_dir = data_dir

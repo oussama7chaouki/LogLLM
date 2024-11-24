@@ -81,8 +81,21 @@ typeface.
    data_dir =  # i.e. r'/mnt/public/gw/SyslogData/BGL'
    log_name =  # i.e. 'BGL.log'
    ```
+  
+  For  **Liberty**, you should activate
+  ```
+  start_line = 40000000
+  end_line = 45000000
+  ```
+  
+  For  **Thunderbird**, you should activate
+  ```
+  start_line = 160000000
+  end_line = 170000000
+  ```
+  
   Run ```python prepareData.sliding_window.py```  from the root directory to generate training and testing data.
-  Training and testing data will be saved in {data_dir}
+  Training and testing data will be saved in {data_dir}.
 
 - For **HDFS**, set the following directories in **session_window.py** under **prepareData**
   directory:
