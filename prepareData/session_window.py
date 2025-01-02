@@ -7,10 +7,10 @@ from tqdm import tqdm
 
 from prepareData.helper import structure_log
 
-data_dir = r'/mnt/public/gw/SyslogData/HDFS_v1'
+data_dir = r'/kaggle/input/hdfs-log'
 log_name = "HDFS.log"
 
-output_dir = data_dir
+output_dir = "/kaggle/working"
 
 
 if __name__ == '__main__':
